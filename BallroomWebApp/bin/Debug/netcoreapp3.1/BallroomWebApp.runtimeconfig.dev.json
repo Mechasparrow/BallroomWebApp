@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/mechasparrow/.dotnet/store/|arch|/|tfm|",
+      "/home/mechasparrow/.nuget/packages"
+    ]
+  }
+}
