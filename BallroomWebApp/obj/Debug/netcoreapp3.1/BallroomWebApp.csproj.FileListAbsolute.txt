@@ -126,11 +126,6 @@
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
-/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Create.cshtml.g.cs
-/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Delete.cshtml.g.cs
-/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Details.cshtml.g.cs
-/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Edit.cshtml.g.cs
-/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Index.cshtml.g.cs
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll

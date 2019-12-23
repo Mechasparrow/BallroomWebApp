@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BallroomWebApp.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +28,10 @@ namespace BallroomWebApp
         {
             services.AddControllersWithViews();
 
+            services.AddDbContext<MvcDanceContext>(options =>
+            {
+                options.UseSqlite(Configuration.GetConnectionString("MvcDanceContext"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
