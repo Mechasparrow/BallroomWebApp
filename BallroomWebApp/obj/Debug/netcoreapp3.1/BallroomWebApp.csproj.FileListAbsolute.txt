@@ -155,3 +155,8 @@
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Create.cshtml.g.cs
+/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Delete.cshtml.g.cs
+/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Details.cshtml.g.cs
+/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Edit.cshtml.g.cs
+/home/mechasparrow/RiderProjects/BallroomWebApp/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Index.cshtml.g.cs
