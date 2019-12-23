@@ -7,12 +7,17 @@
       <e p="BallroomWebApp" t="IncludeRecursive">
         <e p="BallroomWebApp.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="DanceController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="MvcDanceContext.cs" t="Include" />
         </e>
-        <e p="Migrations" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191223004504_InitialCreate.Designer.cs" t="Include" />
+          <e p="20191223004504_InitialCreate.cs" t="Include" />
+          <e p="MvcDanceContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Dance.cs" t="Include" />
           <e p="DanceMove.cs" t="Include" />
@@ -20,12 +25,20 @@
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Syllabus.cs" t="Include" />
         </e>
+        <e p="MvcDance.db" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
+          <e p="Dance" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
