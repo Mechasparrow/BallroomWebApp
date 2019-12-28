@@ -22,6 +22,11 @@ namespace BallroomWebApp.Models
 
                 var dances = new List<Dance>()
                 {
+                    new Dance()
+                    {
+                        Name = "Waltz",
+                        Speed = "Smooth"
+                    },
                     new Dance
                     {
                         Name = "Rumba",
@@ -50,7 +55,8 @@ namespace BallroomWebApp.Models
                 
                 //Create the syllabus
                 var syllabi = new List<Syllabus>();
-
+                
+                
                 foreach (Dance dance in dances)
                 {
                     for (int i = 1; i <= 3; i++)
@@ -64,13 +70,30 @@ namespace BallroomWebApp.Models
                         );
                     }
                 }
-                
+
                 syllabi.ForEach(s => context.Syllabus.Add(s));
+                context.SaveChanges();
+                
+                var dummyDanceVideo = new DanceVideo
+                {
+                    Title = "Box Step",
+                    VideoUrl = "https://www.youtube.com/watch?v=n8PIcO4_S5Q",
+                    Description = "The box step"
+                };
+
+                context.DanceVideo.Add(dummyDanceVideo);
                 context.SaveChanges();
 
                 //TODO dance moves
-                //TODO dance videos
-
+                var dummyDanceMove = new DanceMove
+                {
+                    DanceVideoId = dummyDanceVideo.DanceVideoId,
+                    SyllabusId = syllabi.Single(s => s.Level == 1 && s.DanceId == (dances.Single(d => d.Name == "Waltz").DanceId)).SyllabusId
+                };
+                
+                context.DanceMove.Add(dummyDanceMove);
+                context.SaveChanges();
+                
             };
             
         }
