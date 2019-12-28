@@ -68,6 +68,9 @@ namespace BallroomWebApp.Models
                 syllabi.ForEach(s => context.Syllabus.Add(s));
                 context.SaveChanges();
 
+                //TODO dance moves
+                //TODO dance videos
+
             };
             
         }

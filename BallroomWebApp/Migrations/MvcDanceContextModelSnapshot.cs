@@ -41,6 +41,9 @@ namespace BallroomWebApp.Migrations
                     b.Property<int>("DanceVideoId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("SyllabusId")
                         .HasColumnType("INTEGER");
 

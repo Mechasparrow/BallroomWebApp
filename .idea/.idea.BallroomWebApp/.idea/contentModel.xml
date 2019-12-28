@@ -19,6 +19,8 @@
         <e p="Migrations" t="Include">
           <e p="20191228204952_InitialCreate.Designer.cs" t="Include" />
           <e p="20191228204952_InitialCreate.cs" t="Include" />
+          <e p="20191228214424_MoveChange.Designer.cs" t="Include" />
+          <e p="20191228214424_MoveChange.cs" t="Include" />
           <e p="MvcDanceContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
