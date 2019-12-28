@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e246ac9-b7aa-4161-aac1-15d052207466" name="Default Changelist" comment="Rescaffolded and Re-did database models">
+    <list default="true" id="5e246ac9-b7aa-4161-aac1-15d052207466" name="Default Changelist" comment="All Controller behavior works">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/MvcDance.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.pdb" afterDir="false" />
     </list>
@@ -38,7 +37,9 @@
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Data/MvcDanceContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Create.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,14 +67,16 @@
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" />
-        <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Migrations/20191228204816_SecondUpdate.cs" />
-        <option value="$PROJECT_DIR$/BallroomWebApp/Startup.cs" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Delete.cshtml" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -157,7 +160,7 @@
       <workItem from="1576947084893" duration="2834000" />
       <workItem from="1577058204619" duration="3716000" />
       <workItem from="1577499026528" duration="2921000" />
-      <workItem from="1577565310689" duration="1835000" />
+      <workItem from="1577565310689" duration="3801000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577058523317</created>
@@ -208,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577566880692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="All Controller behavior works">
+      <created>1577567330351</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577567330351</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +247,8 @@
     <MESSAGE value="Scaffolded out Syllabus Controller" />
     <MESSAGE value="Rest of stuff" />
     <MESSAGE value="Rescaffolded and Re-did database models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rescaffolded and Re-did database models" />
+    <MESSAGE value="All Controller behavior works" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Controller behavior works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="615" y="321" width="747" height="462" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1576948008371">
@@ -248,22 +259,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="765" y="296" width="447" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577058326582" />
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1577567283111">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1577569117554">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577567283111" />
-    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1577567283111">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577569117554" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1577569117554">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577567283111" />
-    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1577567283110">
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577569117554" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1577569117553">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577567283110" />
-    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1577567283111">
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577569117553" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1577569117554">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577567283111" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577569117554" />
     <state x="588" y="287" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1576948425478">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

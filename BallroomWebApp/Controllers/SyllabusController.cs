@@ -23,6 +23,8 @@ namespace BallroomWebApp.Controllers
         public async Task<IActionResult> Index()
         {
             var mvcDanceContext = _context.Syllabus.Include(s => s.Dance);
+
+            
             return View(await mvcDanceContext.ToListAsync());
         }
 

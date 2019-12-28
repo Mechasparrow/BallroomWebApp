@@ -20,7 +20,7 @@ namespace BallroomWebApp.Models
                     return;
                 }
 
-                List<Dance> dances = new List<Dance>()
+                var dances = new List<Dance>()
                 {
                     new Dance
                     {
@@ -44,13 +44,30 @@ namespace BallroomWebApp.Models
                     }
                 };
 
-                //TODO render these
-                List<Syllabus> syllabi;
-                List<DanceMove> danceMoves;
-                List<DanceVideo> danceVideos;
-
+                //Create the dances
                 dances.ForEach(d => context.Dance.Add(d));
                 context.SaveChanges();
+                
+                //Create the syllabus
+                var syllabi = new List<Syllabus>();
+
+                foreach (Dance dance in dances)
+                {
+                    for (int i = 1; i <= 3; i++)
+                    {
+                        syllabi.Add(
+                            new Syllabus
+                            {
+                                Level = i,
+                                DanceId    = dance.DanceId
+                            }
+                        );
+                    }
+                }
+                
+                syllabi.ForEach(s => context.Syllabus.Add(s));
+                context.SaveChanges();
+
             };
             
         }

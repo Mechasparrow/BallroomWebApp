@@ -2,6 +2,13 @@
 
 @{
     ViewData["Title"] = "Index";
+
+    List<string> mappings = new List<string>
+    {
+        "Bronze",
+        "Silver",
+        "Gold"
+    };
 }
 
 <h1>Index</h1>
@@ -25,10 +32,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Level)
+                @Html.DisplayFor(modelItem => @mappings[item.Level-1])
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Dance.DanceId)
+                @Html.DisplayFor(modelItem => item.Dance.Name)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.SyllabusId">Edit</a> |
