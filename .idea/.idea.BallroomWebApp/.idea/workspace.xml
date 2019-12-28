@@ -2,59 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e246ac9-b7aa-4161-aac1-15d052207466" name="Default Changelist" comment="Rest of stuff">
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceMoveController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceVideoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceVideo/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceVideo/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceVideo/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceVideo/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/DanceVideo/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/BallroomWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/BallroomWebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Migrations/MvcDanceContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Migrations/MvcDanceContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/MvcDance.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Create.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Delete.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Details.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Edit.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Index.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Create.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Delete.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Details.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Edit.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Index.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +55,8 @@
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Data/MvcDanceContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,7 +64,7 @@
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Migrations/20191223004504_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -93,7 +79,6 @@
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/Dances.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Data/MvcDanceContext.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/appsettings.json" />
-        <option value="$PROJECT_DIR$/BallroomWebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Program.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" />
@@ -102,6 +87,11 @@
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Migrations/20191228204816_SecondUpdate.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Startup.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Views/DanceMove/Delete.cshtml" />
       </list>
     </option>
   </component>
@@ -125,6 +115,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BallroomWebApp">
@@ -184,7 +175,7 @@
       <workItem from="1576947084893" duration="2834000" />
       <workItem from="1577058204619" duration="3716000" />
       <workItem from="1577499026528" duration="2921000" />
-      <workItem from="1577565310689" duration="798000" />
+      <workItem from="1577565310689" duration="1539000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577058523317</created>
