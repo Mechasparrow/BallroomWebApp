@@ -15,5 +15,18 @@
       <Folder Include="Migrations" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Dance\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Dance\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Dance\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Dance\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Dance\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Syllabus\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Syllabus\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Syllabus\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Syllabus\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Syllabus\Index.cshtml" />
+    </ItemGroup>
+
 
 </Project>

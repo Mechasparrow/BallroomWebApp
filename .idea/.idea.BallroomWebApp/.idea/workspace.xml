@@ -2,20 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e246ac9-b7aa-4161-aac1-15d052207466" name="Default Changelist" comment="Rest of stuff">
-      <change afterPath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BallroomWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/MvcDance.db" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/MvcDance.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/BallroomWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/BallroomWebApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Migrations/MvcDanceContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Migrations/MvcDanceContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/MvcDance.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Details.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Dance/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Details.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/Views/Syllabus/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/BallroomWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/bin/Debug/netcoreapp3.1/System.Text.Json.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/BallroomWebApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/BallroomWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Create.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Delete.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Details.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Edit.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Dance/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Create.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Delete.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Details.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Edit.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Index.cshtml.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BallroomWebApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BallroomWebApp/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +65,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Data/MvcDanceContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BallroomWebApp/obj/Debug/netcoreapp3.1/Razor/Views/Syllabus/Create.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Dance/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallroomWebApp/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -57,14 +91,17 @@
         <option value="$PROJECT_DIR$/BallroomWebApp/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Migrations/MvcMovieContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/Dances.cs" />
-        <option value="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" />
-        <option value="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" />
-        <option value="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Data/MvcDanceContext.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/appsettings.json" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Program.cs" />
         <option value="$PROJECT_DIR$/BallroomWebApp/Models/SeedData.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Models/Dance.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Models/DanceVideo.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Models/DanceMove.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Models/Syllabus.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/SyllabusController.cs" />
+        <option value="$PROJECT_DIR$/BallroomWebApp/Controllers/DanceController.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +183,8 @@
       <updated>1576947081384</updated>
       <workItem from="1576947084893" duration="2834000" />
       <workItem from="1577058204619" duration="3716000" />
-      <workItem from="1577499026528" duration="2252000" />
+      <workItem from="1577499026528" duration="2921000" />
+      <workItem from="1577565310689" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1577058523317</created>
@@ -196,14 +234,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -227,22 +267,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="765" y="296" width="447" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577058326582" />
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1577500714404">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1577565979772">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577500714404" />
-    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1577500714403">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577565979772" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1577565979771">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577500714403" />
-    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1577500714402">
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577565979771" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1577565979770">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577500714402" />
-    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1577500714404">
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577565979770" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1577565979772">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577500714404" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577565979771" />
     <state x="588" y="287" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1576948425478">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -259,5 +299,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576947957308" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577565407379">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1577565407379" />
   </component>
 </project>

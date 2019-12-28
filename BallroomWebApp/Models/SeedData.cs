@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using BallroomWebApp.Data;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
@@ -17,8 +18,9 @@ namespace BallroomWebApp.Models
             {
                 return;
             }
-            
-            context.Dance.AddRange(
+
+            List<Dance> dances = new List<Dance>()
+            {
                 new Dance
                 {
                     Name = "Rumba",
@@ -39,8 +41,15 @@ namespace BallroomWebApp.Models
                     Name = "Cha-Cha",
                     Speed = "Rhythm"
                 }
-                );
+            };
+
+            //TODO render these
+            List<Syllabus> syllabi;
+            List<DanceMove> danceMoves;
+            List<DanceVideo> danceVideos;
             
+            context.Dance.AddRange(dances);
+
         }
     }
 }

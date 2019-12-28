@@ -2,7 +2,7 @@ namespace BallroomWebApp.Models
 {
     public class DanceVideo
     {
-        public int Id { get; set; }
+        public int DanceVideoId { get; set; }
         
         public string Title { get; set; }
         
